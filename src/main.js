@@ -6,6 +6,7 @@ import VueAxios from 'vue-axios'
 
 Vue.use(axios,VueAxios);
 
+Vue.prototype.$bus =new Vue()
 Vue.prototype.axios = axios
 Vue.config.productionTip = false
 
